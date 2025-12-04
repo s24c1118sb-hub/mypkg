@@ -1,0 +1,42 @@
+[0.860s] Invoking command in '/home/ryota/ros2_ws/src/mypkg': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ryota/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ryota/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/ryota/ros2_ws/src/mypkg/build/mypkg/build install --record /home/ryota/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed install_data
+[1.017s] running egg_info
+[1.017s] creating build/mypkg/mypkg.egg-info
+[1.027s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[1.027s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.027s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[1.027s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[1.027s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[1.027s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.047s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.047s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.047s] running build
+[1.047s] running build_py
+[1.047s] creating /home/ryota/ros2_ws/src/mypkg/build/mypkg/build
+[1.047s] creating /home/ryota/ros2_ws/src/mypkg/build/mypkg/build/lib
+[1.048s] creating /home/ryota/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.048s] copying mypkg/talker.py -> /home/ryota/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.048s] copying mypkg/__init__.py -> /home/ryota/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.048s] running install
+[1.052s] running install_lib
+[1.061s] creating /home/ryota/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[1.061s] copying /home/ryota/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/ryota/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[1.061s] copying /home/ryota/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/ryota/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg
+[1.062s] byte-compiling /home/ryota/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/talker.py to talker.cpython-312.pyc
+[1.062s]   File "/home/ryota/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/talker.py", line 1
+[1.062s]     import rclpy      　  　　　　   #ROS 2のクライアントのためのライブラリ
+[1.062s]                       ^
+[1.062s] SyntaxError: invalid non-printable character U+3000
+[1.062s] 
+[1.062s] byte-compiling /home/ryota/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg/__init__.py to __init__.cpython-312.pyc
+[1.062s] running install_data
+[1.062s] creating /home/ryota/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[1.062s] creating /home/ryota/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[1.063s] creating /home/ryota/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.063s] copying resource/mypkg -> /home/ryota/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.063s] copying package.xml -> /home/ryota/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[1.063s] running install_egg_info
+[1.073s] Copying build/mypkg/mypkg.egg-info to /home/ryota/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages/mypkg-0.0.0-py3.12.egg-info
+[1.074s] running install_scripts
+[1.145s] Installing talker script to /home/ryota/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.145s] writing list of installed files to '/home/ryota/ros2_ws/src/mypkg/build/mypkg/install.log'
+[1.165s] Invoked command in '/home/ryota/ros2_ws/src/mypkg' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/ryota/ros2_ws/src/mypkg/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ryota/ros2_ws/src/mypkg/install/mypkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/mypkg build --build-base /home/ryota/ros2_ws/src/mypkg/build/mypkg/build install --record /home/ryota/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed install_data
